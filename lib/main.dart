@@ -9,20 +9,7 @@ void main(){
         color: Colors.white,
         child: Column(
           children: <Widget> [
-            Text(
-              "Lorem ipsum",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontStyle: FontStyle.italic,
-                  fontWeight: FontWeight.normal,
-                  letterSpacing: 0,
-                  wordSpacing: 10,
-                  decoration: TextDecoration.underline,
-                  decorationColor: Colors.greenAccent,
-                  decorationStyle: TextDecorationStyle.wavy,
-                  color: Colors.black
-                ),
-            ),
+
           ],
         ),
       ),
