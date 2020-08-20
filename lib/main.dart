@@ -1,45 +1,82 @@
-import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
+import 'dart:math';
 
-void main(){
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Instagram"),
-          backgroundColor: Colors.green,
-        ),
-        body: Padding(
-          padding: EdgeInsets.all(16),
-          child: Text("Conteudo principal"),
-        ),
-        bottomNavigationBar: BottomAppBar(
-          color: Colors.lightGreenAccent,
-          child: Padding(
-            padding: EdgeInsets.all(16),
-            child: Row(
-              children: <Widget> [
-                Text("Texto 1"),
-                Text("Texto 2"),
-              ],
-            )
-          )
-        ),
-      ),
-    )
-  );
+void main() {
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Home(),
+  ));
 }
 
+class Home extends StatefulWidget {
+  @override
+  _HomeState createState() => _HomeState();
+}
 
+class _HomeState extends State<Home> {
 
-// home: Row(
-//         children: <Widget> [
-//           Text(
-//             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-//             style: TextStyle(
-//               fontSize: 40
-//             ),
-//           ),
-//         ],
-//       ),
+  var _frases = [
+    "Frase1",
+    "Frase2",
+    "Frase3",
+    "Frase4",
+  ];
+
+  var _fraseGerada = "Clique abaixo para gerar uma frase!";
+
+  void _gerarFrase(){
+    var numeroSorteado = Random().nextInt(_frases.length);
+
+    setState(() {
+      _fraseGerada = _frases[numeroSorteado];
+    });
+
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Frases do dia"),
+        backgroundColor: Colors.green,
+      ),
+      body: Center(
+        child: Container(
+        padding: EdgeInsets.all(16),
+        // width: double.infinity,
+        // decoration: BoxDecoration(
+        //   border: Border.all(width: 3, color: Colors.amber),
+        // ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Image.asset("images/logo.png"),
+            Text(
+              _fraseGerada,
+              textAlign: TextAlign.justify,
+              style: TextStyle(
+                fontSize: 25,
+                fontStyle: FontStyle.italic,
+                color: Colors.black
+              ),
+            ),
+            RaisedButton(
+              child: Text(
+                "Nova Frase",
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+              color: Colors.green,
+              onPressed: _gerarFrase,
+            ),
+          ],
+        ),
+      ),
+      ),
+    );
+  }
+}

@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		Vs3zTcDp0yahLzT2Nsd23401gxw=
+		DD3hP6WiWlzAs31z2MAUAADhqEk=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		p7mwKsD+MlYbtO/NU5mImCC5dZw=
+		dRYZoOShkdK59G2GhmN5pMaiLDw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		oG5/OGn+vw7vp/nu5DUDoZJ4nFc=
+		ap6LDYaLqs1b8O6sozLGnASSH1w=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -136,13 +136,21 @@
 		<data>
 		nIzDzw7hjOThppiX5OleKNAxtqM=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/images/logo.png</key>
+		<data>
+		PKLjrin6kNP171rWNHRbEiYBM18=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/images/truck.png</key>
+		<data>
+		1SjbJGSJU4W5TDJXLp+3sY2fezI=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/isolate_snapshot_data</key>
 		<data>
 		Z2ICrHK+jrge57+K8dZOkuVFwKY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		MhXJpjhpApskfft6ME8CAI5V6H8=
+		ciDTpYjO0BvDfVLnyTZF5Il4CZE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -497,11 +505,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Vs3zTcDp0yahLzT2Nsd23401gxw=
+			DD3hP6WiWlzAs31z2MAUAADhqEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			K7qAoKYRZqw4QVau6ezASv8jQ1towOff3+fQ5KgEeg0=
+			OxIRz78wuIeFePQr2/arAL6E/v0PPvOJpz0fg59Xjko=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -519,22 +527,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p7mwKsD+MlYbtO/NU5mImCC5dZw=
+			dRYZoOShkdK59G2GhmN5pMaiLDw=
 			</data>
 			<key>hash2</key>
 			<data>
-			93bZv4SPP81fowSf9bL2vDKGWVvejo/0D2ycn9IjSsY=
+			V0dpTYhQDEUgmqHoWx2gsFPubL+4r89wIsY2x9XU26E=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oG5/OGn+vw7vp/nu5DUDoZJ4nFc=
+			ap6LDYaLqs1b8O6sozLGnASSH1w=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sps95+7JukayebvM0TLjL1LW1VXXndpKp/O8tOm9ZR8=
+			Fm5/uancGK8uVW7qDEENRgPQVNFYrECXfPwu26maw/E=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -570,6 +578,28 @@
 			Wuh7JiGdsCj8cMnXMpa8jtW4ekzRz359zPE0NyQ7iRE=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/images/logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PKLjrin6kNP171rWNHRbEiYBM18=
+			</data>
+			<key>hash2</key>
+			<data>
+			d/5LEGArfj8bJ8yQFqjWvM3az/k5gWRg0YTL/4g2VtA=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/images/truck.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1SjbJGSJU4W5TDJXLp+3sY2fezI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ll2/OiRi708pmz0C7eS5DBzXeV2WysI2yhG8ivLzTdI=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/isolate_snapshot_data</key>
 		<dict>
 			<key>hash</key>
@@ -585,11 +615,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MhXJpjhpApskfft6ME8CAI5V6H8=
+			ciDTpYjO0BvDfVLnyTZF5Il4CZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			xkO3XnCXqELnaNfwfo2eRe3GsS6diauK4K2epBYzQ9o=
+			CRkskCNVK7hrZyZhB5tUUmZUzml56nGzpWOaD6+g8LI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
